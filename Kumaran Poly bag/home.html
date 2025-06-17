@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" type="image/png" href="Company Logo.png">
+  <title>Home | Kumaran Poly Bag</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="loader">
+    <div class="loader-spinner"></div>
+    <div id="loader-logo">Kumaran Poly Bag</div>
+  </div>
+<header>
+  <div class="header-main">
+    <img src="Company Logo.png" alt="Kumaran Poly Bag Logo" class="logo">
+    <h1>KUMARAN POLY BAG</h1>
+    <div class="tagline">Manufacturing the Bag</div>
+    <nav>
+      <a href="home.html" class="active">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="products.html">Products & Certificates</a>
+    </nav>
+  </div>
+  <div class="header-phone">
+    <a href="tel:+919840300163">📞 +91 98403 00163</a>
+  </div>
+</header>
+  <div class="container home-container">
+    <section class="home-hero">
+      <h2>Welcome to Kumaran Poly Bag</h2>
+      <p>Your trusted partner for premium quality poly bags, custom packaging, and eco-friendly solutions for businesses and individuals.</p>
+      <a href="products.html" class="cta-btn">View Our Products</a>
+    </section>
+    <section class="home-highlights">
+      <div class="highlight-card">
+        <span class="highlight-icon">🌱</span>
+        <h3>Eco-Friendly Solutions</h3>
+        <p>Choose sustainability with our biodegradable and recyclable products.</p>
+      </div>
+      <div class="highlight-card">
+        <span class="highlight-icon">🛡️</span>
+        <h3>Quality Guaranteed</h3>
+        <p>Stringent quality checks ensure durability and reliability for every order.</p>
+      </div>
+      <div class="highlight-card">
+        <span class="highlight-icon">⚡</span>
+        <h3>Fast Delivery</h3>
+        <p>Quick turnaround and prompt delivery to keep your business running smoothly.</p>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <!--#include virtual="contact-section.html" -->
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <div class="contact-info">
+        <div class="contact-details">
+          <strong>Address:</strong> No- 3/599- 1 Madhanathapuram <br>
+          Mugalivakkam
+          Chennai - 600125
+          <br><br>
+          <strong>Phone:</strong> +91 9840300163<br>
+          <strong>Email:</strong> kumaranflexo@gmail.com <br>
+          
+        </div>
+        <form class="contact-form" action="mailto: kumaranflexo@gmail.com " method="post" enctype="text/plain">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" placeholder="Your Message" rows="4" required></textarea>
+          <br>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+      <div class="cta">
+        <a href="mailto: kumaranflexo@gmail.com " class="cta-btn">Get a Free Quote</a>
+      </div>
+    </section>
+  </div>
+  <footer>
+    &copy; 2025 KUMARAN POLY BAG. All rights reserved.
+  </footer>
+  <script>
+    // Loader screen logic
+    window.addEventListener('load', function() {
+      setTimeout(function() {
+        document.getElementById('loader').classList.add('hidden');
+      }, 1100);
+      setTimeout(function() {
+        document.getElementById('loader').style.display = "none";
+      }, 1700);
+    });
+  </script>
+</body>
+</html>
